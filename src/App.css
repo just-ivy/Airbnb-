@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+.cardCona{
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  align-items: center;
+  gap: 1rem;
+  height: 43vh;
+  overflow-x: auto;
+  width: 100%;
+}
+
+
+.cardHold{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 45vw;
+  height: 90%;
+  min-width: 170px;
+  margin-bottom: 1rem;
+}
+
+.imagehold{
+  display: flex;
+  position: relative;
+  height: 75%;
+  width: 100%;
+}
+
+.imAger{
+  display: flex;
+  width: 100%;
+  /* height: 100%;6y` */
+  border-radius: 10px;
+  height: 14rem;
+}
+
+.tag{
+  padding: 6px;
+  font-size: 2.4vw;
+  font-weight: 600;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 25%;
+}
+
+.FirstLine_OF-Details{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  font-size: 3.2vw;
+  
+}
+
+.SecondLine{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  font-size: 3vw;
+}
+
+.ThirdLine{
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+  font-size: 4vw;
+}
+
+@media screen and (min-width: 760px) {
+  .hero--photo {
+    height: 50vh;
+    /* align-self: center; */
+  }
+  .cardHold{
+    width: 17vw;
+    height: 100%;
+  }
+  .FirstLine_OF-Details{
+    font-size: 1vw; 
+    gap: 5px;
+  } 
+  .SecondLine{
+    font-size: 1rem;
+  }
+  .ThirdLine{
+    font-size: 1vw;
+  } 
+  .tag{
+    font-size: 1vw;
+  }
+  .star{
+    height: 15px;
+    width: 15px;
+  }
+  .cardCona{
+    height: 56vh;
+    padding: 1rem 2rem;
+    /* border: 1px solid #000; */
+  }
+}
